@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 60px;
+}
+.links ul {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+ul a{
+    text-decoration: none;
+}
+
+.mtext h1{
+    font-weight: 900;
+}
